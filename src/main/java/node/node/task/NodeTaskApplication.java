@@ -7,7 +7,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRepositories;
 
 @SpringBootApplication
-@EnableReactiveMongoRepositories
 public class NodeTaskApplication {
 
     public static void main(String[] args) {

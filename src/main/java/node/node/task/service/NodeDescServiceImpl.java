@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 
 @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 @Service
-public class NodeDescServiceImpl implements NodeDescService{
+public class NodeDescServiceImpl implements NodeDescService {
 
     @Autowired
     ReactiveMongoTemplate mongoTemplate;
